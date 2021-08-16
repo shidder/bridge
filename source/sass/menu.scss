@@ -1,0 +1,12 @@
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__item {
+    padding-right: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
