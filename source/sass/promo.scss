@@ -1,0 +1,41 @@
+.promo {
+	display: flex;
+	flex-direction: column;
+	
+	padding-top: 254px;
+
+	background-image:url("../img/main-bg-desktop@1x.jpg");
+	background-repeat: no-repeat;
+	background-position: 97% 70%;
+	background-size:cover;	
+}
+
+.promo__info {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.promo__text {
+	max-width: 689px;
+font-weight: bold;
+font-size: 72.5px;
+line-height: 90px;
+margin: 0;
+padding-bottom: 80px;
+}
+
+.promo__text span {
+	color: #FF970A;
+}
+
+.promo__social-item {
+	padding-top: 23px;
+}
+
+.promo__video {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}

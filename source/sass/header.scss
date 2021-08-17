@@ -1,14 +1,22 @@
 .header {
+    position: absolute;
     display: flex;
+    width: 100%;
+    box-sizing: border-box;
     justify-content: space-between;
     padding-top: 11px;
     padding-right: 50px;
     padding-bottom: 14px;
     padding-left: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .header__nav {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 128px;
+
+    @media (max-width: $desktop_min_width) {
+        margin-left: 10px;
+                }
 }

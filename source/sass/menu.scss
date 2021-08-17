@@ -9,4 +9,18 @@
     padding-right: 40px;
     font-size: 15px;
     text-transform: uppercase;
+
+    @media (max-width: $desktop_min_width) {
+        padding-right: 10px;
+    }
+}
+
+.menu__toggle {
+    display: none;
+    background: transparent;
+    border: none;
+
+    @media (max-width: $mobile_max_width) {
+        display: block;
+    }
 }
