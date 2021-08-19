@@ -5,19 +5,11 @@
     font-display: swap;
     src: url("../fonts/SF-UI-Display.woff2") format("woff2"), url("../fonts/SF-UI-Display.woff") format("woff");
   }
-  
+
   @font-face {
     font-style: normal;
     font-weight: 700;
     font-family: "SF UI Display";
     font-display: swap;
-    src: url("../fonts/SF-UI-Display.woff2") format("woff2"), url("../fonts/SF-UI-Display.woff") format("woff");
-  }
-  
-  @font-face {
-    font-style: normal;
-    font-weight: 900;
-    font-family: "SF UI Display";
-    font-display: swap;
-    src: url("../fonts/SF-UI-Display.woff2") format("woff2"), url("../fonts/SF-UI-Display.woff") format("woff");
+    src: url("../fonts/SF-UI-Display-bold.woff2") format("woff2"), url("../fonts/SF-UI-Display-bold.woff") format("woff");
   }

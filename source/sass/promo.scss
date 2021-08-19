@@ -1,13 +1,17 @@
 .promo {
 	display: flex;
 	flex-direction: column;
-	
 	padding-top: 254px;
-
 	background-image:url("../img/main-bg-desktop@1x.jpg");
 	background-repeat: no-repeat;
-	background-position: 97% 70%;
-	background-size:cover;	
+	background-position: 38% 70%;
+	background-size:cover;
+}
+
+.promo__icons {
+	position: absolute;
+    top: 14%;
+    right: 4%;
 }
 
 .promo__info {

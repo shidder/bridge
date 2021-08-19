@@ -1,0 +1,27 @@
+.video__info {
+    position: relative;
+    left: 68px;
+    background: linear-gradient(124.94deg, #000000 -120.88%, rgba(155, 155, 155, 0) 127.52%);
+    backdrop-filter: blur(7px);
+    padding-top: 53px;
+    padding-left: 35px;
+    padding-right: 103px;
+    padding-bottom: 47px;
+    border-top-left-radius: 35px;
+}
+
+.video__info p {
+padding-bottom: 11px;
+font-size: 22px;
+line-height: 22px;
+}
+
+.video__info a {
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    }
+
+.video__img {
+    z-index: 2;
+}
