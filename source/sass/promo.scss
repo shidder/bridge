@@ -2,16 +2,21 @@
 	display: flex;
 	flex-direction: column;
 	padding-top: 254px;
-	background-image:url("../img/main-bg-desktop@1x.jpg");
+	background-image: url("../img/main-bg-desktop@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: 38% 70%;
-	background-size:cover;
+	background-size: cover;
 }
 
 .promo__icons {
 	position: absolute;
-    top: 14%;
-    right: 4%;
+	top: 14%;
+	right: 4%;
+	display: flex;
+}
+
+.promo__icon {
+	padding-right: 10px;
 }
 
 .promo__info {
@@ -23,11 +28,11 @@
 
 .promo__text {
 	max-width: 689px;
-font-weight: bold;
-font-size: 72.5px;
-line-height: 90px;
-margin: 0;
-padding-bottom: 80px;
+	font-weight: bold;
+	font-size: 72.5px;
+	line-height: 90px;
+	margin: 0;
+	padding-bottom: 80px;
 }
 
 .promo__text span {
